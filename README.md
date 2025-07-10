@@ -12,7 +12,7 @@ Each task includes:
 - 🚦 Priority level (Low / Medium / High)
 - 📅 Due date
 
----
+
 
 ## 🔧 Tech Stack
 
@@ -21,7 +21,7 @@ Each task includes:
 - **Database:** MongoDB (with Mongoose)
 - **Styling:** Custom CSS + Bootstrap
 
----
+
 
 ## 📁 Folder Structure
 
@@ -29,7 +29,7 @@ Each task includes:
 - **/server** → Express backend & MongoDB connection
 - **/models** → Mongoose schema for tasks
 
----
+
 
 ## 🛠 Features
 
