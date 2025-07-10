@@ -33,9 +33,9 @@ Each task includes:
 
 ## 🛠 Features
 
-✅ Add Task — title, priority, and due date
-🔄 Update Task — change details any time
-🗑 Delete Task — remove when done
-🧭 Routing — powered by React Router
-⚙️ MongoDB — used for persistent storage
+- ✅ Add Task — title, priority, and due date
+- 🔄 Update Task — change details any time
+- 🗑 Delete Task — remove when done
+- 🧭 Routing — powered by React Router
+- ⚙️ MongoDB — used for persistent storage
 
