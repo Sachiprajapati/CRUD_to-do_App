@@ -1,3 +1,27 @@
-# CRUD_to-do_App
+# 📝 ToDo App (MERN Stack)
 
-I'm working on a CRUD to-do App....will add the files as soon as i complete the work...Thank you!!
+A simple **ToDo Application** built using the **MERN (MongoDB, Express, React, Node.js)** stack.
+
+Users can:
+- ➕ Add new tasks
+- 📝 Update existing tasks
+- ❌ Delete tasks
+
+Each task includes:
+- ✅ Task description
+- 🚦 Priority level (Low / Medium / High)
+- 📅 Due date
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend:** React.js, Axios, React Router
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (with Mongoose)
+- **Styling:** Custom CSS + Bootstrap
+
+---
+
+## 📁 Folder Structure
+
