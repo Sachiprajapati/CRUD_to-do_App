@@ -25,9 +25,9 @@ Each task includes:
 
 ## 📁 Folder Structure
 
-**/client** → React frontend
-**/server** → Express backend & MongoDB connection
-**/models** → Mongoose schema for tasks
+- **/client** → React frontend
+- **/server** → Express backend & MongoDB connection
+- **/models** → Mongoose schema for tasks
 
 ---
 
