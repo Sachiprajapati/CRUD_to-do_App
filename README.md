@@ -1,4 +1,4 @@
-# 📝 ToDo App (MERN Stack)
+#  ToDo App (MERN Stack)
 
 A simple **ToDo Application** built using the **MERN (MongoDB, Express, React, Node.js)** stack.
 
@@ -24,4 +24,18 @@ Each task includes:
 ---
 
 ## 📁 Folder Structure
+
+**/client** → React frontend
+**/server** → Express backend & MongoDB connection
+**/models** → Mongoose schema for tasks
+
+---
+
+## 🛠 Features
+
+✅ Add Task — title, priority, and due date
+🔄 Update Task — change details any time
+🗑 Delete Task — remove when done
+🧭 Routing — powered by React Router
+⚙️ MongoDB — used for persistent storage
 
