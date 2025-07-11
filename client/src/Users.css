@@ -1,0 +1,88 @@
+/* Center container */
+.main-container {
+    position: relative;
+    min-height: 100vh;
+    padding: 40px;
+    z-index: 1;
+}
+
+.main-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+    filter: blur(1px);
+}
+
+/* Style for the Add + button */
+.add-btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #388e3c;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* background-color: rgba(255, 255, 255, 0.85); */
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Update button */
+.edit-btn {
+  background-color: #2196F3;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+  background-color: #1976D2;
+}
+
+/* Delete button */
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
